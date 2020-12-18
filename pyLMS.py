@@ -14,8 +14,15 @@ def pyLMS(filename):
     elif list(mat.keys())[3] == 'FRF':
         domain =  'FRF'
     elif list(mat.keys())[3] == 'FrequencySpectrum':
-        domain =  'Spectrum'
+        if str(mat['FrequencySpectrum'][0][0][0][0][0][1][0]) == 'BandOctave1_3':
+            domain =  'Octave'
+        else:
+            domain = 'Spectrum'
+
+
     
+
+    ###########################
     if domain == 'Time':
         
         ty = 'Signal'
@@ -133,6 +140,6 @@ def pyLMS(filename):
     units = {'x' : x_unit, 'y' : y_unit}
     magnitudes = {'x' : x_mag, 'y' : y_mag}
 
-    out = {'signals': data, 'units': units,'mags': magnitudes}
+    out = {'signals': data, 'units': units,'magnitudes': magnitudes}
     
     return  out

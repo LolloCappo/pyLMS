@@ -19,13 +19,13 @@ Simple example
 
 	# Import packages
 	import pyLMS
-	import matplotlib.pyplot as plt
 
 	filename = 'data/accelerometro.mat'
 
-	accelerometer = pyLMS(filename)
+	sensor = pyLMS(filename)
 
-	plt.plot(accelerometer['signals']['x'], accelerometer['signals']['y'])
-	plt.xlabel(accelerometer['magnitudes']['x'] + ' [' + accelerometer['units']['x'] +']')
-	plt.ylabel(accelerometer['magnitudes']['y'] + ' [' + accelerometer['units']['y'] +']')
-	plt.grid()
+	time = sensor['signals']['x']
+	acceleration = sensor['signals']['y']
+	
+	units = sensor['units']
+	magnitudes = sensor['magnitudes']

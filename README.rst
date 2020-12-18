@@ -1,7 +1,5 @@
-pyLMS
+pyLMS : LMS .mat files Reader
 =======
-LMS .mat files Reader
----------------------
 
 This module  allows to get raw data from .mat files saved from Siemens LMS TestLab.
 

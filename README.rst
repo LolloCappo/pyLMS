@@ -10,6 +10,7 @@ Installing the package
 ----------------------
 
 .. code-block:: console
+
 	$ pip install pyLMS
 
 

@@ -19,7 +19,7 @@ Simple example
 .. code-block:: python
 
 	# Import packages
-	import pyLMS
+	from pyLMS import *
 
 	filename = 'data/accelerometro.mat'
 

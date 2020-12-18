@@ -11,7 +11,7 @@ Import the package after download
 
 .. code-block:: console
 
-	$ pip install pyLMS
+	$ from pyLMS import *
 
 
 Simple example

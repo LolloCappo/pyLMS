@@ -9,13 +9,13 @@ This module  allows to get raw data from .mat files saved from Siemens LMS TestL
 Installing the package
 ----------------------
 
-..code-block:: console
+.. code-block:: console
 	$ pip install pyLMS
 
 
 Simple example
 --------------
-..code-block:. python
+.. code-block:: python
 
 	# Import packages
 	import pyLMS

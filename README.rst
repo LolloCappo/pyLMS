@@ -6,7 +6,7 @@ LMS .mat files Reader
 
 This module  allows to get raw data from .mat files saved from Siemens LMS TestLab.
 
-Installing the package
+Import the package after download
 ----------------------
 
 .. code-block:: console

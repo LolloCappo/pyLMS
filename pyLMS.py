@@ -3,6 +3,7 @@ import scipy.io
 
 def pyLMS(filename):
     '''
+    
     Open .mat acquisition files saved from LMS Testlab
 
     Arguments:

@@ -12,7 +12,7 @@ def pyLMS(filename):
     Returns:
         dictionary - {'signals', 'units', 'magnitudes'}, where each key is also a dictionary:
                     
-                    'signals': {'x', 'y'} containe x and y raw data vectors
+                    'signals': {'x', 'y'} contains x and y raw data vectors
                     'units'  : {'x', 'y'} contains x and y units
                     'magnitudes'  : {'x', 'y'} contains x and y magnitudes
 
